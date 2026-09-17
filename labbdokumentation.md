@@ -11,6 +11,13 @@ Av: Blossom Davis | Datum: 2026-10-02
 *Beskrivning av uppsättningen.*
 > tabellen
 
+
+| Hostname        | Operativsystem  | IP-adress | Subnätmask | Standard Gateway. |
+|-----------------|-----------------|-----------|------------|-------------------|
+| 192.168.1.50/24 |  | 192.168.1.51/24          |            |                   |
+
+
+
 ## Genomförande av kommando 
 *Syftet med uppgiften är att du ska visa dina praktiska färdigheter i att sätta upp och
 dokumentera en virtuell labbmiljö, navigera och felsöka via kommandoraden i Linux och

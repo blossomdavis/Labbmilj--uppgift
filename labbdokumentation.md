@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Labbdokumentation
 *Syftet med uppgiften är att visa mina praktiska färdigheter i att sätta upp och
 dokumentera en virtuell labbmiljö, navigera och felsöka via kommandoraden i Linux och
@@ -126,3 +127,5 @@ Ge mig ett antal exempel för att förstå det ur ett praktiskt perspektiv, och 
 ### Kritisk utvärdering
 Jag anser att koden/förklaringen var korrekt. AI-modellen ger konkreta och nyanserade exempel som förklaras på ett bra sätt. Jag ser inga tydliga tecken på varken hallucinationer eller föråldrad kod. För att säkerställa att svaret var rimligt bad jag den även att rada upp för- nackdelar för att visa en ännu mer nyanserad bild av ämnet. 
 
+=======
+>>>>>>> parent of 103ed46 (dokument: uppdaterar nätverkstabell för del 2)

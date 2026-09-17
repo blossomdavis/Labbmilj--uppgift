@@ -78,8 +78,9 @@ Flaggan -p skapar mappar som inte finns, utan att ge ett felmeddelande.*
 ![ipconfig](<Skärmbild 2026-09-17 155811.png>)
 
 ## Git & Versionshantering 
-*Länka till mitt Git-repository samt skärmdump på min git log --oneline som visar din ändringshistorik.*
-> URL + git log --oneline
+> git log --oneline 
+
+![git log](image-6.png)
 
 ## AI-logg & Utvärdering 
 *Prompt, AI-utdata och min kritiska granskning.* 

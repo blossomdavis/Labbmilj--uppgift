@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Labbdokumentation
 *Syftet med uppgiften är att visa mina praktiska färdigheter i att sätta upp och
 dokumentera en virtuell labbmiljö, navigera och felsöka via kommandoraden i Linux och
@@ -52,7 +51,7 @@ Flaggan -p skapar mappar som inte finns, utan att ge ett felmeddelande.*
 - Verifiera nätverksanslutningen 
 > ip addr show
 
-![ip-adress][def]
+![alt text](<Skärmbild 2026-09-17 155103.png>)
 
 ### Windows (PowerShell)
 
@@ -71,11 +70,11 @@ Flaggan -p skapar mappar som inte finns, utan att ge ett felmeddelande.*
 
 *192.168.1.50 = nätverksadressen till Linux-maskinen.*
 
-![ping](<Skärmbild 2026-09-17 155657.png>)
+![alt text](<Skärmbild 2026-09-17 155657.png>)
 
 > ipconfig /all
 
-![ipconfig](<Skärmbild 2026-09-17 155811.png>)
+![alt text](<Skärmbild 2026-09-17 155811.png>)
 
 ## Git & Versionshantering 
 > git log --oneline 
@@ -125,7 +124,8 @@ Ge mig ett antal exempel för att förstå det ur ett praktiskt perspektiv, och 
 ##
 
 ### Kritisk utvärdering
-Jag anser att koden/förklaringen var korrekt. AI-modellen ger konkreta och nyanserade exempel som förklaras på ett bra sätt. Jag ser inga tydliga tecken på varken hallucinationer eller föråldrad kod. För att säkerställa att svaret var rimligt bad jag den även att rada upp för- nackdelar för att visa en ännu mer nyanserad bild av ämnet. 
+Jag anser att koden/förklaringen var korrekt. AI:n ger ett naturligt, konkret och nyanserat exempel som förklaras på ett bra sätt. Jag ser inga tydliga tecken på varken hallucinationer eller föråldrad kod. 
 
-=======
->>>>>>> parent of 103ed46 (dokument: uppdaterar nätverkstabell för del 2)
+För att säkerställa att svaret inte var värderande bad jag den att rada upp för- nackdelar för att visa en ännu mer nyanserad bild av ämnet. Sedan sökte jag även på andra oberoende källor för att bekräfta faktan. 
+
+Dock nämner inte AI:n konkreta kommando-exempel som chmod eller liknande, men det var inte heller tydligt efterfrågat i prompten. 

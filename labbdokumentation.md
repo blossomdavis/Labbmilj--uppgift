@@ -8,20 +8,18 @@ Kurs: Introduktion till yrkesrollen och grunderna i IT-infrastruktur (MYH 2025/4
 Av: Blossom Davis | Datum: 2026-10-02
 
 ## Nätverkstabell
-*Beskrivning av uppsättningen.*
-> tabellen
+*Labbmiljön sattes upp i VirtuaBox och består av en Linus-maskin (Ubuntu) och en Windows-maskin (Windows 11). För att maskinerna ska kunna kommunicera direkt med varandra gav jag de ett internt nätverk, detta för att det är ett isolerat nätverk utan internet så att labbtrafiken inte störs av min/värd datorn.*
 
+*Båda maskiner har manuellt konfigurerats med ip-adresser inom samma nätverk med nätmasken /24. när miljön är isolerad som denna behövs det därför ingen anslutning mot externa nätverk och därför finns det ingen Standard Gateway.*
 
-| Hostname        | Operativsystem  | IP-adress | Subnätmask | Standard Gateway. |
+| Hostname        | Operativsystem  | IP-adress | Subnätmask | Standard Gateway |
 |-----------------|-----------------|-----------|------------|-------------------|
-| 192.168.1.50/24 |  | 192.168.1.51/24          |            |                   |
-
+| Blossom | Windows 11 | 192.168.1.51 | 255.255.255.0 | Saknas (internt nätverk) ||-----------------|-----------------|-----------|------------|-------------------|
+| blossom | Ubuntu | 192.168.1.50 | 255.255.255.0 | Saknas (internt nätverk) |
 
 
 ## Genomförande av kommando 
-*Syftet med uppgiften är att du ska visa dina praktiska färdigheter i att sätta upp och
-dokumentera en virtuell labbmiljö, navigera och felsöka via kommandoraden i Linux och
-Windows, spåra ditt arbete med Git samt reflektera kritiskt kring din AI-användning.* 
+*Syftet.* 
 > kommandorader
 
 ## Git & Versionshantering 

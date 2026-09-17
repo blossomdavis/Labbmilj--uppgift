@@ -81,7 +81,48 @@ Flaggan -p skapar mappar som inte finns, utan att ge ett felmeddelande.*
 *Länka till mitt Git-repository samt skärmdump på min git log --oneline som visar din ändringshistorik.*
 > URL + git log --oneline
 
-## AI-logg & Reflektion 
-*Prompt, AI-utdata och din kritiska granskning.* 
-> citat?
+## AI-logg & Utvärdering 
+*Prompt, AI-utdata och min kritiska granskning.* 
+
+#### Min AI-prompt:
+> Förklara i detalj vad som menas med funktionen "behörighet" inom it-infrastruktur.\
+Ge mig ett antal exempel för att förstå det ur ett praktiskt perspektiv, och en lista med för- och nackdelar.
+
+#### AI-svaret:
+
+> Inom IT-infrastruktur syftar behörighet (eller auktorisering, engelska: authorization) på den rättighet eller tillåtelse en användare, process eller enhet har att komma åt, ändra eller utföra åtgärder på en specifik resurs. Medan autentisering svarar på frågan "Vem är du?" (t.ex. genom inloggning med lösenord eller BankID), svarar behörighet på frågan "Vad får du göra?".
+> 
+> **Praktiska exempel**\
+> Behörigheter styrs oftast genom regelsystem som definierar vem som får göra vad på olika nivåer i IT-infrastrukturen: 
+> 
+> Fil- och mappsäkerhet (NTFS/Linux-rättigheter): En ekonomiavdelning har behörighet att läsa och skriva i mappen för årsredovisningar, medan övriga anställda varken kan öppna eller se filerna.  
+> 
+> Databasåtkomst (RBAC - Rollbaserad behörighetsstyrning): En kundtjänstmedarbetare har behörighet att se en kunds adress, men saknar behörighet att ändra kundens kreditgräns eller radera kunden ur databasen. 
+>  
+> Nätverksinfrastruktur (Brandväggar och VLAN): En konsult som ansluter till gäst-Wi-Fi har behörighet att nå internet, men saknar behörighet att kommunicera med företagets interna servrar. 
+> 
+> Molntjänster (IAM - Identity & Access Management): En systemadministratör har behörighet att skapa nya virtuella maskiner i AWS/Azure, medan en utvecklare endast får starta och stoppa befintliga testmaskiner. 
+> 
+>
+> ### För- och nackdelar med behörighetsstyrning
+  > 
+  > **Fördelar**
+  > 
+  > Ökad datasäkerhet: Förhindrar obehöriga från att komma åt känslig information eller affärskritiska system. 
+  > 
+  >Minskad skaderadie (Principle of Least Privilege): Om ett konto blir hackat eller drabbas av skadlig kod begränsas skadan till vad kontot har behörighet till. 
+  > 
+  > Spårbarhet och regelefterlevnad: Gör det enkelt att uppfylla lagkrav (t.ex. GDPR) och spåra vem som gjort ändringar i systemen. 
+  > 
+  > **Nackdelar:** 
+  Administrativ komplexitet: Att konfigurera och underhålla rätt behörighetsnivåer för hundratals användare kräver tid och resurser. 
+  > 
+  > Minskad användarflexibilitet: För stränga behörigheter kan skapa flaskhalsar och hindra medarbetare från att utföra sitt dagliga arbete effektivt. 
+  > 
+  > Risk för "Privilege Creep": Användare samlar ofta på sig nya behörigheter över tid när de byter roller, vilket skapar dolda säkerhetsrisker om det inte rensas regelbundet.
+
+##
+
+### Kritisk utvärdering
+Jag anser att koden/förklaringen var korrekt. AI-modellen ger konkreta och nyanserade exempel som förklaras på ett bra sätt. Jag ser inga tydliga tecken på varken hallucinationer eller föråldrad kod. För att säkerställa att svaret var rimligt bad jag den även att rada upp för- nackdelar för att visa en ännu mer nyanserad bild av ämnet. 
 

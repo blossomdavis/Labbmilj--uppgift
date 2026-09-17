@@ -1,11 +1,11 @@
 # Labbdokumentation
-Syftet med uppgiften är att visa mina praktiska färdigheter i att sätta upp och
+*Syftet med uppgiften är att visa mina praktiska färdigheter i att sätta upp och
 dokumentera en virtuell labbmiljö, navigera och felsöka via kommandoraden i Linux och
-Windows, spåra mitt arbete med Git samt reflektera kritiskt kring min AI-användning. 
+Windows, spåra mitt arbete med Git samt reflektera kritiskt kring min AI-användning.* 
 
-Kurs: Introduktion till yrkesrollen och grunderna i IT-infrastruktur (MYH 2025/4008)
+**Kurs:** *Introduktion till yrkesrollen och grunderna i IT-infrastruktur (MYH 2025/4008)*
 
-Av: Blossom Davis | Datum: 2026-10-02
+**Av:** *Blossom Davis* | **Datum:** *2026-10-02*
 
 ## Nätverkstabell
 *Labbmiljön sattes upp i VirtuaBox och består av en Linus-maskin (Ubuntu) och en Windows-maskin (Windows 11). För att maskinerna ska kunna kommunicera direkt med varandra gav jag de ett internt nätverk, detta för att det är ett isolerat nätverk utan internet så att labbtrafiken inte störs av min/värd datorn.*
@@ -18,9 +18,58 @@ Av: Blossom Davis | Datum: 2026-10-02
 | blossom | Ubuntu | 192.168.1.50 | 255.255.255.0 | Saknas (internt nätverk) |
 
 
-## Genomförande av kommando 
-*Syftet.* 
-> kommandorader
+## Arbete med kommando och felsökning 
+*Syftet.*
+### Linux (Ubuntu)
+
+- Skapa mappen och filen
+> sudo mkdir -p /var/systementor/konsultdata\
+> sudo touch /var/systementor/konsultdata/anteckningar.txt
+
+*Sudo körs för att ge administratörsrättigheter.\
+Flaggan -p skapar mappar som inte finns, utan att ge ett felmeddelande.*
+
+![text](länk)
+
+- Skapa användargrupp 
+> sudo groupadd konsulter
+
+![Text](länk)
+
+- Tilldela behörigheter
+> chmod 750 konsultdata\
+> chmod 640 anteckningar.txt
+
+![Text](länk)
+
+- Inspektera behörigheter
+> ls -la
+
+![text](länk)
+
+- Verifiera nätverksanslutningen 
+> ip addr show
+
+![text](länk)
+
+
+### Windows (PowerShell)
+
+- Skapa mappen 
+> New-Item -ItemType Directory -Path C:\Systementor\KonsultData
+
+![Text](länk)
+
+- Inspektera och dokumentera behörighetsstrukturen
+> Get-Acl
+
+![Text](länk)
+
+- Verifiera nätverksanslutning och inspektera nätverksinställningar
+> Test-Connection eller ping\
+> ipconfig /all
+
+![Text](länk)
 
 ## Git & Versionshantering 
 *Länka till mitt Git-repository samt skärmdump på min git log --oneline som visar din ändringshistorik.*

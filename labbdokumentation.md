@@ -19,7 +19,6 @@ Windows, spåra mitt arbete med Git samt reflektera kritiskt kring min AI-använ
 
 
 ## Arbete med kommando och felsökning 
-*Syftet.*
 ### Linux (Ubuntu)
 
 - Skapa mappen och filen

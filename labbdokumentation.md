@@ -38,6 +38,7 @@ Flaggan -p skapar mappar som inte finns, utan att ge ett felmeddelande.*
 
 - Tilldela mappen och filen till gruppen (konsulter) och ställ in behörigheter
 > sudo chown -R :konsulter /var/systementor/konsultdata
+
 > chmod 750 konsultdata\
 > chmod 640 anteckningar.txt
 
@@ -51,25 +52,30 @@ Flaggan -p skapar mappar som inte finns, utan att ge ett felmeddelande.*
 - Verifiera nätverksanslutningen 
 > ip addr show
 
-![ip adress](<Skärmbild 2026-09-17 114124.png>)
+![ip-adress][def]
 
 ### Windows (PowerShell)
 
 - Skapa mappen 
-> New-Item -ItemType Directory -Path C:\Systementor\KonsultData
+> New-Item -Path "C:\Systementor\KonsultData" -ItemType Directory -Force
 
-![Text](länk)
+![skapad mapp](image-4.png)
 
 - Inspektera och dokumentera behörighetsstrukturen
-> Get-Acl
+> Get-Acl -Path "C:\Systementor\KonsultData" | Format-List
 
-![Text](länk)
+![behörigheter](image-5.png)
 
 - Verifiera nätverksanslutning och inspektera nätverksinställningar
-> Test-Connection eller ping\
+> ping 192.168.1.50
+
+*192.168.1.50 = nätverksadressen till Linux-maskinen.*
+
+![ping](<Skärmbild 2026-09-17 155657.png>)
+
 > ipconfig /all
 
-![Text](länk)
+![ipconfig](<Skärmbild 2026-09-17 155811.png>)
 
 ## Git & Versionshantering 
 *Länka till mitt Git-repository samt skärmdump på min git log --oneline som visar din ändringshistorik.*
@@ -78,3 +84,4 @@ Flaggan -p skapar mappar som inte finns, utan att ge ett felmeddelande.*
 ## AI-logg & Reflektion 
 *Prompt, AI-utdata och din kritiska granskning.* 
 > citat?
+

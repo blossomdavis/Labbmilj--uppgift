@@ -29,29 +29,29 @@ Windows, spåra mitt arbete med Git samt reflektera kritiskt kring min AI-använ
 *Sudo körs för att ge administratörsrättigheter.\
 Flaggan -p skapar mappar som inte finns, utan att ge ett felmeddelande.*
 
-![text](länk)
+![skapa mapp och fil](image-1.png)
 
 - Skapa användargrupp 
 > sudo groupadd konsulter
 
-![Text](länk)
+![skapa grupp](image-2.png)
 
-- Tilldela behörigheter
+- Tilldela mappen och filen till gruppen (konsulter) och ställ in behörigheter
+> sudo chown -R :konsulter /var/systementor/konsultdata
 > chmod 750 konsultdata\
 > chmod 640 anteckningar.txt
 
-![Text](länk)
+*Flaggan -R gör så att ändringen gäller både mappen och dess underfiler.*
 
 - Inspektera behörigheter
 > ls -la
 
-![text](länk)
+![behörigheter](image-3.png)
 
 - Verifiera nätverksanslutningen 
 > ip addr show
 
-![text](länk)
-
+![ip adress](<Skärmbild 2026-09-17 114124.png>)
 
 ### Windows (PowerShell)
 
